@@ -1,7 +1,6 @@
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import os
 from sqlalchemy import create_engine
 
 url = 'https://rally.io/creator/'
@@ -56,10 +55,10 @@ df = pd.DataFrame({"Day":today,"Price":prices, "Support Volume": support_volume,
 #import the relevant sql library 
 from sqlalchemy import create_engine
 # link to your database
-terminal_command  = os.popen('heroku config').readlines()
-print(terminal_command)
-# DATABASE_URL = terminal_command[1].split()[1]
-# engine = create_engine(DATABASE_URL, echo = False)
+# DATABASE_URL needs to be updated manually each time database is under maintenance
+# 'heroku config'
+DATABASE_URL = 'postgres://ctkktxkifhwmyg:fb5a4a55540ca70ab820a8410211da4566491f0b0486ccacd7eaaffbab682e7a@ec2-44-194-145-230.compute-1.amazonaws.com:5432/d8tlp616ssvf85'
+engine = create_engine(DATABASE_URL, echo = False)
 
 # attach the data frame (df) to the database with a name of the table; the name can be whatever you like
-# df.to_sql('daily_creators', con = engine, if_exists='append') 
+df.to_sql('daily_creators', con = engine, if_exists='append') 
