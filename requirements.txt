@@ -1,5 +1,5 @@
 # packaging
-# pip>=9
+pip>=9
 # setuptools>=26
 # twine
 # wheel>=0.29
@@ -9,7 +9,6 @@ pandas
 requests
 bs4
 sqlalchemy
-os
 
 # # tests/linter
 # black
