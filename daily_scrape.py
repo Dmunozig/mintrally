@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 from sqlalchemy import create_engine
 import psycopg2
+from datetime import date
 
 url = 'https://rally.io/creator/'
 
@@ -35,30 +36,27 @@ start_price = []
 user_id = []
 
 for creator in range(0,total_creators-1):
-    tot_coins.append(dict_summary[creator]['coinSummary']['totalCoins'])
+    tot_coins.append(round(float(dict_summary[creator]['coinSummary']['totalCoins']),2))
     tot_transactions.append(dict_summary[creator]['coinSummary']['totalTransaction'])
     supporters.append(dict_summary[creator]['coinSummary']['totalSupporters'])
     support_volume.append(dict_summary[creator]['coinSummary']['totalSupportVolume'])
-    rly_backing.append(dict_summary[creator]['coinSummary']['totalRLYBacking'])
+    rly_backing.append(round(float(dict_summary[creator]['coinSummary']['totalRLYBacking']),2))
     symbols.append(dict_summary[creator]['coinSummary']['symbol'])
-    prices.append(dict_summary[creator]['coinSummary']['price'])
+    prices.append(round(float(dict_summary[creator]['coinSummary']['price']),3))
     creators.append(dict_summary[creator]['data']['creatorPreferredName'])
-    start_price.append(dict_summary[creator]['data']['startingPrice'])
+    start_price.append(round(float(dict_summary[creator]['data']['startingPrice']),2))
     user_id.append(dict_summary[creator]['data']['rnbUserId'])
 
 # Add a Date to log date of scrape
-from datetime import date
 today = date.today()
 
 # Create dataframe with scraped information
 df = pd.DataFrame({"Day":today,"Price":prices, "Support Volume": support_volume, "Supporters":supporters, "$RLY Backing": rly_backing,"Total Coins":tot_coins, "Total Transactions": tot_transactions, "Symbol" :symbols,"Starting Price":start_price, "User ID":user_id}, index = creators)
 
-#import the relevant sql library 
-from sqlalchemy import create_engine
-# link to your database
+# link to database
 # DATABASE_URL needs to be updated manually each time database is under maintenance
 # 'heroku config'
-DATABASE_URL = 'postgresql://ctkktxkifhwmyg:fb5a4a55540ca70ab820a8410211da4566491f0b0486ccacd7eaaffbab682e7a@ec2-44-194-145-230.compute-1.amazonaws.com:5432/d8tlp616ssvf85'
+DATABASE_URL = 'postgresql://u306813otv8f95:p25d6da481ee02e92aac8741a70cb78ec7c591a9210533c46e608ddd17dfaed72@ec2-54-163-148-101.compute-1.amazonaws.com:5432/d2p54679fankco'
 engine = create_engine(DATABASE_URL, echo = False)
 
 # attach the data frame (df) to the database with a name of the table; the name can be whatever you like
