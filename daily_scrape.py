@@ -2,6 +2,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 from sqlalchemy import create_engine
+import psycopg2
 
 url = 'https://rally.io/creator/'
 
