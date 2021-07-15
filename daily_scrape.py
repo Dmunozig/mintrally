@@ -57,8 +57,9 @@ df = pd.DataFrame({"Day":today,"Price":prices, "Support Volume": support_volume,
 from sqlalchemy import create_engine
 # link to your database
 terminal_command  = os.popen('heroku config').readlines()
-DATABASE_URL = terminal_command[1].split()[1]
-engine = create_engine(DATABASE_URL, echo = False)
+print(terminal_command)
+# DATABASE_URL = terminal_command[1].split()[1]
+# engine = create_engine(DATABASE_URL, echo = False)
 
 # attach the data frame (df) to the database with a name of the table; the name can be whatever you like
-df.to_sql('daily_creators', con = engine, if_exists='append') 
+# df.to_sql('daily_creators', con = engine, if_exists='append') 
