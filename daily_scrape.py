@@ -57,7 +57,7 @@ from sqlalchemy import create_engine
 # link to your database
 # DATABASE_URL needs to be updated manually each time database is under maintenance
 # 'heroku config'
-DATABASE_URL = 'postgres://ctkktxkifhwmyg:fb5a4a55540ca70ab820a8410211da4566491f0b0486ccacd7eaaffbab682e7a@ec2-44-194-145-230.compute-1.amazonaws.com:5432/d8tlp616ssvf85'
+DATABASE_URL = 'postgresql://ctkktxkifhwmyg:fb5a4a55540ca70ab820a8410211da4566491f0b0486ccacd7eaaffbab682e7a@ec2-44-194-145-230.compute-1.amazonaws.com:5432/d8tlp616ssvf85'
 engine = create_engine(DATABASE_URL, echo = False)
 
 # attach the data frame (df) to the database with a name of the table; the name can be whatever you like
