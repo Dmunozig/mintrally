@@ -1,0 +1,563 @@
+1626434967727	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2ZWmRv"
+Error: no DISPLAY environment variable specified
+1626435273776	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2C5Sii"
+Error: no DISPLAY environment variable specified
+1626435284887	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAh653D"
+Error: no DISPLAY environment variable specified
+1626435509743	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejK5G7M"
+Error: no DISPLAY environment variable specified
+1626439104035	geckodriver	INFO	Listening on 127.0.0.1:46171
+1626439104038	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMUb3We"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626439104366	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMUb3We/search.json.mozlz4", (void 0)))
+1626439106098	Marionette	INFO	Listening on port 33981
+1626439106161	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/exkW1aWpcEgyfnSxaN04_gBnrAbbgfV_chCPI0EM_3k.js line 1 > eval line 6332 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/exkW1aWpcEgyfnSxaN04_gBnrAbbgfV_chCPI0EM_3k.js line 1 > eval line 6332 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1626439120553	Marionette	INFO	Stopped listening on port 33981
+1626444287512	geckodriver	INFO	Listening on 127.0.0.1:42967
+1626444287516	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOJ6D27"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626444287841	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOJ6D27/search.json.mozlz4", (void 0)))
+1626444289414	Marionette	INFO	Listening on port 46203
+1626444289448	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1626444697848	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1626446215102	geckodriver	INFO	Listening on 127.0.0.1:41985
+1626446215106	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuh5fXZ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626446215416	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuh5fXZ/search.json.mozlz4", (void 0)))
+1626446216966	Marionette	INFO	Listening on port 39391
+1626446217030	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1626446625429	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1626447257043	geckodriver	INFO	Listening on 127.0.0.1:57791
+1626447257048	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0zjkjJ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626447257352	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0zjkjJ/search.json.mozlz4", (void 0)))
+1626447259126	Marionette	INFO	Listening on port 38017
+1626447259179	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1626447511310	geckodriver	INFO	Listening on 127.0.0.1:33661
+1626447511315	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1z4geG"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626447511631	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1z4geG/search.json.mozlz4", (void 0)))
+1626447513420	Marionette	INFO	Listening on port 35935
+1626447513455	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626447520922	Marionette	INFO	Stopped listening on port 35935
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+1626447569639	geckodriver	INFO	Listening on 127.0.0.1:43367
+1626447569646	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVGhTvQ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626447569949	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVGhTvQ/search.json.mozlz4", (void 0)))
+1626447571590	Marionette	INFO	Listening on port 36701
+1626447571678	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626448027626	geckodriver	INFO	Listening on 127.0.0.1:44923
+1626448027630	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJy9dUr"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626448027939	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJy9dUr/search.json.mozlz4", (void 0)))
+1626448029597	Marionette	INFO	Listening on port 44859
+1626448029658	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626448036992	Marionette	INFO	Stopped listening on port 44859
+1626448102878	geckodriver	INFO	Listening on 127.0.0.1:58337
+1626448102883	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOanmiu"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626448103199	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOanmiu/search.json.mozlz4", (void 0)))
+1626448104835	Marionette	INFO	Listening on port 42877
+1626448104915	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626448112456	Marionette	INFO	Stopped listening on port 42877
+1626448193252	geckodriver	INFO	Listening on 127.0.0.1:44375
+1626448193256	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePHv0IE"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626448193583	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePHv0IE/search.json.mozlz4", (void 0)))
+1626448195476	Marionette	INFO	Listening on port 43569
+1626448195584	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/exkW1aWpcEgyfnSxaN04_gBnrAbbgfV_chCPI0EM_3k.js line 1 > eval line 4934 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/exkW1aWpcEgyfnSxaN04_gBnrAbbgfV_chCPI0EM_3k.js line 1 > eval line 4934 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1626448208597	Marionette	INFO	Stopped listening on port 43569
+1626448209139	geckodriver	INFO	Listening on 127.0.0.1:35457
+1626448209151	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilet3ewZV"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626448209494	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilet3ewZV/search.json.mozlz4", (void 0)))
+1626448210962	Marionette	INFO	Listening on port 44153
+1626448211075	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626448225113	Marionette	INFO	Stopped listening on port 44153
+1626448595005	geckodriver	INFO	Listening on 127.0.0.1:57789
+1626448595009	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0I3ep1"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626448595330	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0I3ep1/search.json.mozlz4", (void 0)))
+1626448597301	Marionette	INFO	Listening on port 41949
+1626448597349	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626448611369	Marionette	INFO	Stopped listening on port 41949
+1626449421982	geckodriver	INFO	Listening on 127.0.0.1:60509
+1626449421986	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePX3DvZ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626449422306	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePX3DvZ/search.json.mozlz4", (void 0)))
+1626449424060	Marionette	INFO	Listening on port 38995
+1626449424110	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626449438026	Marionette	INFO	Stopped listening on port 38995
+1626450594092	geckodriver	INFO	Listening on 127.0.0.1:57115
+1626450594096	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaewutF"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626450594434	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaewutF/search.json.mozlz4", (void 0)))
+1626450596353	Marionette	INFO	Listening on port 36817
+1626450596438	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626452040593	geckodriver	INFO	Listening on 127.0.0.1:50475
+1626452040600	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0F5jSW"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626452040931	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0F5jSW/search.json.mozlz4", (void 0)))
+1626452042542	Marionette	INFO	Listening on port 35831
+1626452042639	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1626452379810	geckodriver	INFO	Listening on 127.0.0.1:49683
+1626452379814	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefigksH"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626452380120	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefigksH/search.json.mozlz4", (void 0)))
+1626452381668	Marionette	INFO	Listening on port 35571
+1626452381737	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1626452450940	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://rally.io/_next/static/chunks/pages/_app-b53807f2f7dff22affa7.js, line 1: Error: NetworkError when attempting to fetch resource.
+1626452790127	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1626452853343	geckodriver	INFO	Listening on 127.0.0.1:55741
+1626452853348	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTq4cS3"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626452853662	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTq4cS3/search.json.mozlz4", (void 0)))
+1626452855142	Marionette	INFO	Listening on port 38301
+1626452855193	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626453007064	geckodriver	INFO	Listening on 127.0.0.1:36409
+1626453007069	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiQwTZb"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626453007391	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiQwTZb/search.json.mozlz4", (void 0)))
+1626453010434	Marionette	INFO	Listening on port 46261
+1626453010522	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+1626453332197	geckodriver	INFO	Listening on 127.0.0.1:60497
+1626453332202	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAZ7GCa"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626453332523	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAZ7GCa/search.json.mozlz4", (void 0)))
+1626453334111	Marionette	INFO	Listening on port 46877
+1626453334233	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626453549071	geckodriver	INFO	Listening on 127.0.0.1:48175
+1626453549075	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5yH3Xj"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626453549392	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5yH3Xj/search.json.mozlz4", (void 0)))
+1626453551069	Marionette	INFO	Listening on port 34811
+1626453551110	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626453730371	geckodriver	INFO	Listening on 127.0.0.1:40897
+1626453730377	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelJRDzN"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626453730697	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelJRDzN/search.json.mozlz4", (void 0)))
+1626453736783	Marionette	INFO	Listening on port 37027
+1626453736852	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626455096814	geckodriver	INFO	Listening on 127.0.0.1:42247
+1626455096818	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehHM8zR"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626455097150	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehHM8zR/search.json.mozlz4", (void 0)))
+1626455098841	Marionette	INFO	Listening on port 40935
+1626455098946	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626455325053	geckodriver	INFO	Listening on 127.0.0.1:36973
+1626455325058	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTpzg8C"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626455325389	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTpzg8C/search.json.mozlz4", (void 0)))
+1626455326946	Marionette	INFO	Listening on port 33907
+1626455326983	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+1626455442063	geckodriver	INFO	Listening on 127.0.0.1:60183
+1626455442068	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexWv48X"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626455442399	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexWv48X/search.json.mozlz4", (void 0)))
+1626455444126	Marionette	INFO	Listening on port 40975
+1626455444192	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626455510551	geckodriver	INFO	Listening on 127.0.0.1:42513
+1626455510557	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewmgYk7"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626455510882	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewmgYk7/search.json.mozlz4", (void 0)))
+1626455512638	Marionette	INFO	Listening on port 43529
+1626455512687	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626455586297	geckodriver	INFO	Listening on 127.0.0.1:44453
+1626455586303	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileX2aAuJ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626455586629	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileX2aAuJ/search.json.mozlz4", (void 0)))
+1626455588227	Marionette	INFO	Listening on port 38967
+1626455588334	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+1626455650920	geckodriver	INFO	Listening on 127.0.0.1:57695
+1626455650924	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1JFRjB"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626455651252	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1JFRjB/search.json.mozlz4", (void 0)))
+1626455652939	Marionette	INFO	Listening on port 35173
+1626455653056	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+1626455806674	geckodriver	INFO	Listening on 127.0.0.1:42189
+1626455806678	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileh5pP6b"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626455807019	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileh5pP6b/search.json.mozlz4", (void 0)))
+1626455808760	Marionette	INFO	Listening on port 41141
+1626455810494	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626456008822	geckodriver	INFO	Listening on 127.0.0.1:43933
+1626456008826	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHtFAsv"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1626456009151	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHtFAsv/search.json.mozlz4", (void 0)))
+1626456011400	Marionette	INFO	Listening on port 45255
+1626456011468	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
